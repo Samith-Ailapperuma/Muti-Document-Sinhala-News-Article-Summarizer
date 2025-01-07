@@ -5,7 +5,9 @@ from sinling import SinhalaTokenizer
 sinhala_tokenizer = SinhalaTokenizer()
 
 # Load pre-trained fastText model
-model = fasttext.load_model(r'D:\Lecture Notes\Level 4 Semester 1\IS 4910 - Comprehensive Group Project\FastText\cc.si.300.bin')
+model = fasttext.load_model(
+    # File path
+)
 
 # Function to generate embeddings for each summary
 def generate_document_embeddings(documents):

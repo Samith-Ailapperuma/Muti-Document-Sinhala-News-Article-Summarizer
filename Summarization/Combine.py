@@ -4,8 +4,8 @@ from nltk import sent_tokenize
 from rouge import Rouge
 from sinling import SinhalaTokenizer
 
-input_file_path = r"D:\Lecture Notes\Level 4 Semester 1\IS 4910 - Comprehensive Group Project\Module Input and Output\Input Documents\Documents.txt"
-output_file_path = r"D:\Lecture Notes\Level 4 Semester 1\IS 4910 - Comprehensive Group Project\Module Input and Output\Output Document\Summary.txt"
+input_file_path = ""
+output_file_path = ""
 
 sinhala_tokenizer = SinhalaTokenizer()
 

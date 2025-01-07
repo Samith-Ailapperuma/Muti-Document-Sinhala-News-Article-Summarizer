@@ -3,10 +3,12 @@ import numpy as np
 # from ..Summarization.Combine import documents, summary
 
 # Load pre-trained fastText model
-model = fasttext.load_model(r'D:\Lecture Notes\Level 4 Semester 1\IS 4910 - Comprehensive Group Project\FastText\cc.si.300.bin')
+model = fasttext.load_model(
+    # File path
+)
 
-summary_file_path = r"D:\Lecture Notes\Level 4 Semester 1\IS 4910 - Comprehensive Group Project\Module Input and Output\Output Document\Summary.txt"
-document_file_path = r"D:\Lecture Notes\Level 4 Semester 1\IS 4910 - Comprehensive Group Project\Module Input and Output\Input Documents\Documents.txt"
+summary_file_path = ""
+document_file_path = ""
 
 # Function to read documents from the input file
 def read_summary(file_path):
